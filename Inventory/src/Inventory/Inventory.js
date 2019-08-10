@@ -2,9 +2,6 @@ import React from 'react';
 import './Inventory.css';
 import Item from './Item';
 import ITEMS from '../data.json';
-
-const menuTabs = ['All', 'Wepons', 'Consumables'];
-
 export default class Inventory extends React.Component {
     constructor(props) {
         super(props)
