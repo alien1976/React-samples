@@ -1,0 +1,9 @@
+.inventory-wrapper {
+    width: 500px;
+    height: 500px;
+    background: gray;
+}
+
+.active-item {
+    border: 5px black solid;
+}

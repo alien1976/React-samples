@@ -1,0 +1,73 @@
+{
+    "player":{
+       "inventoryview":{
+          "width":10,
+          "height":5,
+          "layout":[
+             {
+                "itemid":5,
+                "positionX":1,
+                "positionY":1
+             },
+             {
+                "itemid":7,
+                "positionX":1,
+                "positionY":2
+             },
+             {
+                "itemid":11,
+                "positionX":1,
+                "positionY":3
+             },
+             {
+                "itemid":25,
+                "positionX":2,
+                "positionY":2
+             },
+             {
+                "itemid":33,
+                "positionX":3,
+                "positionY":2
+             }
+          ]
+       },
+       "inventoryitems":[
+          {
+             "id":5,
+             "type":"weapon",
+             "rarity":"white",
+             "cost":5,
+             "titleid":"Bronze knife"
+          },
+          {
+             "id":7,
+             "type":"weapon",
+             "rarity":"green",
+             "cost":25,
+             "titleid":"Steel hammer"
+          },
+          {
+             "id":11,
+             "type":"weapon",
+             "rarity":"blue",
+             "cost":125,
+             "titleid":"Titanium sword"
+          },
+          {
+             "id":25,
+             "type":"armor",
+             "rarity":"purple",
+             "cost":300,
+             "titleid":"Tungsten armor"
+          },
+          {
+             "id":33,
+             "type":"armor",
+             "rarity":"green",
+             "cost":22,
+             "titleid":"Steel armor"
+          }
+       ]
+    }
+ }
+ 

@@ -1,0 +1,46 @@
+.item-wrapper {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    border: 1px black solid;
+    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 1s ease;
+    cursor: pointer;
+}
+
+.item-wrapper:hover {
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.item-wrapper:active {
+    border: 5px black solid;
+}
+
+.item-name {
+    text-align: center;
+    color: darkcyan;
+    font-size: 14px;
+}
+
+.item-type {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+    height: 70%;
+}
+
+.active-item {
+    border: 5px black solid;
+}
+
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: inset 0px black;
+    }
+    100% {
+        box-shadow: inset 10px black;
+    }
+}
